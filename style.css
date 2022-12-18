@@ -3,8 +3,9 @@
     margin: 0;
 }
 .info-bar{
+    display: block;
     background-color: black;
-    width: 198.33px;
+    width: 20%;
     height: 842px;
     color:white
 }
@@ -34,13 +35,23 @@ height: 59px;
 }
 h1{
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 footer{
+    display: none;
     background-color:beige;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: stretch;
-
     padding: 10px;
+    width: 100%;
+}
+section{
+    padding: 30px;
+    margin: 0;
+    width: 80%;
+}
+.init{
+    display: flex;
 }
