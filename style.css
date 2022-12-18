@@ -1,6 +1,46 @@
 *{
-    background-color: aquamarine;
+    padding: 0;
+    margin: 0;
+}
+.info-bar{
+    background-color: black;
+    width: 198.33px;
+    height: 842px;
+    color:white
+}
+header{
+    padding: 30px;
+    width: 135px;
+    height: 201px;
+}
+
+img{
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    width: 69.85px;
+    height: 74px;
+}
+.info-title{
+    margin-top: 20px;
+    text-align: center;
+width: 135px;
+height: 59px;
+}
+.info-tag{
+    letter-spacing: 3px;
+    padding: 50px;
+    text-align: center;
 }
 h1{
-    color: darkblue;
+    margin-bottom: 20px;
+}
+footer{
+    background-color:beige;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+
+    padding: 10px;
 }
