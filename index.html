@@ -5,16 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
     <title>My resume</title>
 </head>
 <body>
-    <nav>
-        <h1>Iryna Hryshkevich</h1>
+    <main class="init">
+    <nav class="info-bar">
+        <header>
+            <img src="img/IMG_20181231_172112.jpg" alt="my foto cv">
+                <div class="info-title">
+                <h1>Iryna Hryshkevich</h1>
+                <p>JS, HTML/CSS<br>Frontend</p>
+            </div>
+        </header>
+        <aside class="info-tag">
+            <h2>My skills</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>PHP</li>
+                <li>React</li>
+                <li>Git</li>
+                <li>Excel</li>
+                <li>MacOS</li>
+                <li>Bash</li>
+                <li>TypeScript</li>
+            </ul>
+        </aside>
     </nav>
-    <header></header>
-    <content>
-
-    </content>
-    <footer></footer>
+    <section>
+        <h2>About me</h2>
+        <p> am 26. I have been working in an online store for about 2 years. I want 
+            to change something in my life and I try hard to<br> learn 
+            programming languages. Javascript suits me the most according to my abilities</p>
+        <h2>Education</h2>
+        <p>belarusian state university of informatics
+            and radioelectronics: Electronic technique and technology</p>
+        <h2>Languages</h2>
+        <ul>
+            <li>Russian - native</li>
+            <li>Belarussian - native</li>
+            <li>English - B2</li>
+            <li>Polish - B2</li>
+        </ul>
+        <h2>Code</h2>
+        <p><code>
+            function checkParent (src, dest) {<Br>
+             while (src != null) {<Br>
+               if (src.tagName == dest) return src<Br>
+                src = src.parentElement<Br>
+             }<Br>
+             return null<Br>
+            }</code></p>
+    </section>
+</main>
+    <footer>
+        <div class="footer-info">
+            <p>Email: <a href="https://gmail.com" target="_blank">bonivomal1996@gmail.com</a></p>
+            <p>Telefon: +48 884 006 481</p>
+            <p>Telegram: <a href="@Bonivomal">@Bonivomal</a></p>
+            <p>GitHub: <a href="https://github.com/irinagrishkevich" target="_blank">@irinagrishkevich</a></p>
+        </div>
+            <div class="tag-logo">
+                <img class="logo" src="img/rs_school_js.svg" alt="rs school">
+                <a href="https://rs.school/js/">RS SCHOOL</a>
+            </div>
+    </footer>
 </body>
 </html>
